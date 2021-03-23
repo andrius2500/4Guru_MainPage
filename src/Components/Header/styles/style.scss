@@ -1,0 +1,26 @@
+ .header__navigation {
+     border: 1px solid black;
+     display: flex;
+     height: auto;
+     width: 100%;
+    .header__logo {
+        margin-left: 5%;
+        width: 10%;
+        .header__img {
+            margin-top: 15px;
+            width: 100%;
+        }
+    }
+    .header__navigation-links-container {
+        margin: auto;
+        .header__nav-links {
+            margin-left: 100px;
+            font-size: 1.3vw;
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: #47AEE1;
+            }
+        }
+    }
+}
