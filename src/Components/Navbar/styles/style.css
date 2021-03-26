@@ -1,0 +1,26 @@
+.navbar__navigation {
+  border: 1px solid black;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.navbar__navigation .navbar__logo {
+  margin-left: 5%;
+  width: 10%;
+}
+.navbar__navigation .navbar__logo .navbar__img {
+  margin-top: 15px;
+  width: 100%;
+}
+.navbar__navigation .navbar__navigation-links-container {
+  margin: auto;
+}
+.navbar__navigation .navbar__navigation-links-container .navbar__links {
+  margin-left: 100px;
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: black;
+}
+.navbar__navigation .navbar__navigation-links-container .navbar__links:hover {
+  color: #47AEE1;
+}/*# sourceMappingURL=style.css.map */

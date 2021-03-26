@@ -1,0 +1,39 @@
+.header {
+    border: 2px solid black;
+    display: flex;
+}
+
+.header__img {
+    border: 10px solid red;
+    width: 35%;
+}
+
+.header__top-img-container {
+    border: 20px solid green;
+    width: 100%;
+    position: relative;
+    left: 1400px;
+    z-index: 2;
+    .header__img--on-top {
+        width: 120%;
+    }
+}
+
+.header__img--below {
+    transform: scaleX(-1);
+}
+
+// .header__other-img-container {
+//     border: 20px solid greenyellow;
+//     .header__img--below {
+//         transform: scaleX(-1);
+//     }
+// }
+
+// .header__top-img-container {
+//     width: 120%;
+//     border: 20px solid orchid;
+//     .header__img--on-top {
+//         width: 100%;
+//     }
+// }

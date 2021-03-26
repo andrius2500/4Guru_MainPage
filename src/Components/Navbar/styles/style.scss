@@ -1,21 +1,21 @@
- .header__navigation {
+ .navbar__navigation {
      border: 1px solid black;
      display: flex;
      height: auto;
      width: 100%;
-    .header__logo {
+    .navbar__logo {
         margin-left: 5%;
         width: 10%;
-        .header__img {
+        .navbar__img {
             margin-top: 15px;
             width: 100%;
         }
     }
-    .header__navigation-links-container {
+    .navbar__navigation-links-container {
         margin: auto;
-        .header__nav-links {
+        .navbar__links {
             margin-left: 100px;
-            font-size: 1.3vw;
+            font-size: 1.2vw;
             text-decoration: none;
             color: black;
             &:hover {
