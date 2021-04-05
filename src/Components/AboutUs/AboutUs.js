@@ -5,8 +5,8 @@ import './styles/styles.css';
 
 function AboutUs() {
     return (
-        <div>
-            <div className='about-us'>
+        <div className='about-us'>
+            <div className='about-us__container'>
                 <div className='about-us__top'>
                     <h2>About US</h2>
                     <p>Learn how we helped our several clients grow their businesses online. </p>

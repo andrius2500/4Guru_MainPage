@@ -1,30 +1,32 @@
-.about-us {
-  border: 2px solid black;
+.about-us .about-us__container {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  height: 75vh;
 }
-.about-us .about-us__top {
+.about-us .about-us__container .about-us__top {
   text-align: center;
   margin: auto;
   width: 30%;
 }
-.about-us .about-us__bottom {
+.about-us .about-us__container .about-us__bottom {
   display: flex;
+  padding: 80px 0;
   justify-content: center;
   align-items: center;
   margin: auto;
   max-width: 80%;
 }
-.about-us .about-us__bottom .about-us__img {
-  width: 40%;
+.about-us .about-us__container .about-us__bottom .about-us__img {
+  min-width: 500px;
+  margin-right: 10%;
+}
+.about-us .about-us__container .about-us__bottom .about-us__main-text {
+  min-width: 350px;
   margin-right: 50px;
+  line-height: 30px;
 }
-.about-us .about-us__bottom .about-us__main-text {
-  width: 55%;
-  margin-right: 120px;
-  line-height: 25px;
-}
-.about-us .about-us__bottom .about-us__main-text a {
+.about-us .about-us__container .about-us__bottom .about-us__main-text a {
   color: #47AEE1;
   text-decoration: none;
   font-weight: 700;
