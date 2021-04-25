@@ -61,7 +61,7 @@ function BlogMain() {
                     </Slider>
                 </div>
                 <div className='blog-main__btn'>
-                    <button type='button' class='blog-main__view-all'>View All</button>
+                    <button type='button' className='blog-main__view-all'>View All</button>
                 </div>
             </div>
         </div>
