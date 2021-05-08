@@ -1,16 +1,18 @@
 .contact-us {
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 .contact-us .contact-us__col-left {
-  border: 2px solid black;
-  margin: 25px 35px;
+  margin-top: 45px;
 }
 .contact-us .contact-us__col-left .contact-us__main-text h2 {
   font-size: 30px;
   margin-bottom: -5px;
 }
 .contact-us .contact-us__col-left .contact-us__main-text p {
-  width: 85%;
+  width: 80%;
+  font-size: 18px;
 }
 .contact-us .contact-us__col-left .contact-us__info {
   margin: 10px 20px;
@@ -26,7 +28,7 @@
   margin-left: 15px;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__adress-container .contact-us__adress-info .contact-us__info-header {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: -5px;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__queries-container {
@@ -40,21 +42,19 @@
   margin-left: 15px;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__queries-container .contact-us__queries-info .contact-us__info-header {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: -5px;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__email-container {
   display: flex;
   margin: 10px 0;
 }
-.contact-us .contact-us__col-left .contact-us__info .contact-us__email-container .contact-us__email-img img {
+.contact-us .contact-us__col-left .contact-us__info .contact-us__email-container .contact-us__email-img .contact-us__img--bigger {
   margin-top: 20px;
-}
-.contact-us .contact-us__col-left .contact-us__info .contact-us__email-container .contact-us__email-info {
-  margin-left: 15px;
+  width: 70%;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__email-container .contact-us__email-info .contact-us__info-header {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: -5px;
 }
 .contact-us .contact-us__col-left .contact-us__info .contact-us__img {

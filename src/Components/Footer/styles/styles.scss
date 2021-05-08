@@ -1,0 +1,12 @@
+.footer__container {
+    border: 2px solid black;
+    background: #2A2A2A;
+    .footer__logo{
+        border: 1px solid red;
+        width: 8rem;
+        height: 3rem;
+        img {
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.contact-us__col-right {
+    margin-top: 25px;
+    width: 50rem;
+    background-image: url('../../ContactUs/images/background-blue-img.svg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-left: -350px;
+}
+.contact-us__form-container {
+    .contact-us__input-fields form{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 150px;
+        width: 25vw;
+        .contact-us__input {
+            margin: 7px 0;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .contact-us__btn {
+            width: 8rem;
+            color: #fff;
+            background: #74f7a5;
+            border-radius: 20px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+}

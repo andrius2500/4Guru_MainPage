@@ -1,15 +1,17 @@
 .contact-us {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
     .contact-us__col-left {
-        border: 2px solid black;
-        margin: 25px 35px;
+        margin-top: 45px; 
         .contact-us__main-text {
             h2 {
                 font-size: 30px;
                 margin-bottom: -5px;
             }
             p {
-                width: 85%;
+                width: 80%;
+                font-size: 18px;
             }
         }
         .contact-us__info {
@@ -25,7 +27,7 @@
                 .contact-us__adress-info {
                     margin-left: 15px;
                     .contact-us__info-header {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-bottom: -5px;
                     }
                 }
@@ -41,7 +43,7 @@
                 .contact-us__queries-info {
                     margin-left: 15px;
                     .contact-us__info-header {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-bottom: -5px;
                     }
                 }
@@ -50,14 +52,14 @@
                 display: flex;
                 margin: 10px 0;
                 .contact-us__email-img {
-                    img {
+                    .contact-us__img--bigger {
                         margin-top: 20px;
+                        width: 70%;
                     }
                 }
                 .contact-us__email-info {
-                    margin-left: 15px;
                     .contact-us__info-header {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-bottom: -5px;
                     }
                 }

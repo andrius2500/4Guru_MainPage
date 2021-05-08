@@ -18,8 +18,12 @@
   max-width: 80%;
 }
 .about-us .about-us__container .about-us__bottom .about-us__img {
-  min-width: 500px;
+  min-width: 550px;
   margin-right: 10%;
+}
+.about-us .about-us__container .about-us__bottom .about-us__img img {
+  width: 100%;
+  border-radius: 400px;
 }
 .about-us .about-us__container .about-us__bottom .about-us__main-text {
   min-width: 350px;

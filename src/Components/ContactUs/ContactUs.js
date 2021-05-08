@@ -30,17 +30,16 @@ function ContactUs() {
                             <img src={mobile} alt='mobile icon' className='contact-us__img'/>
                         </div>
                         <div className='contact-us__queries-info'>
-                            <p>Call for queries</p>
-                            <p>111-111-111</p>
+                            <p className='contact-us__info-header'>Call for queries</p>
                             <p>111-111-111</p>
                         </div>
                     </div>
                     <div className='contact-us__email-container'>
                         <div className='contact-us__email-img'>
-                            <img src={email} alt='email icon' className='contact-us__img'/>
+                            <img src={email} alt='email icon' className='contact-us__img contact-us__img--bigger'/>
                         </div>
                         <div className='contact-us__email-info'>
-                            <p>Email Us</p>
+                            <p className='contact-us__info-header'>Email Us</p>
                             <p>info@4guru.com</p>
                         </div>
                     </div>

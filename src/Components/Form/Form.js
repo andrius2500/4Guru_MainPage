@@ -6,6 +6,8 @@ import * as yup from 'yup';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
+import './styles/styles.css';
+
 const validationSchema = yup.object({
     firstName: yup.string().required('First name is required'),
     lastName: yup.string(),
@@ -42,50 +44,63 @@ function Form() {
 
     return (
         <div className='contact-us__form-container'>
-            <div>
-                <form onSubmit={formik.handleSubmit}>
-                    <TextField
-                        id='firstName'
-                        name='firstName'
-                        label='First Name'
-                        value={formik.values.firstName}
-                        onChange={formik.handleChange}
-                        error={formik.touched.firstName && Boolean(formik.errors.firstName)}
-                        helperText={formik.touched.firstName && formik.errors.firstName}
-                    />
-                    <TextField 
-                        id='lastName'
-                        name='lastName'
-                        label='Last Name'
-                        value={formik.values.lastName}
-                        onChange={formik.handleChange}
-                        error={formik.touched.lastName && Boolean(formik.errors.lastName)}
-                    />
-                    <TextField 
-                        id='email'
-                        name='email'
-                        label='Email adress'
-                        value={formik.values.email}
-                        onChange={formik.handleChange}
-                        error={formik.touched.email && Boolean(formik.errors.email)}
-                        helperText={formik.touched.firstName && formik.errors.email}
-                    />
-                    <TextField 
-                        id='message'
-                        name='message'
-                        label='Your message'
-                        value={formik.values.message}
-                        onChange={formik.handleChange}
-                        error={formik.touched.message && Boolean(formik.errors.message)}
-                        helperText={formik.touched.firstName && formik.errors.message}
-                    />
-                    <Button 
-                        variant='outlined'
-                        type='submit'
-                    >
-                        Submit
-                    </Button>
-                </form>
+            <div className='contact-us__test'>
+                <div className='contact-us__input-fields'>
+                    <form onSubmit={formik.handleSubmit}>
+                        <TextField
+                            id='firstName'
+                            name='firstName'
+                            label='First Name'
+                            variant='outlined'
+                            className='contact-us__input'
+                            value={formik.values.firstName}
+                            onChange={formik.handleChange}
+                            error={formik.touched.firstName && Boolean(formik.errors.firstName)}
+                            helperText={formik.touched.firstName && formik.errors.firstName}
+                        />
+                        <TextField 
+                            id='lastName'
+                            name='lastName'
+                            label='Last Name'
+                            variant='outlined'
+                            className='contact-us__input'
+                            value={formik.values.lastName}
+                            onChange={formik.handleChange}
+                            error={formik.touched.lastName && Boolean(formik.errors.lastName)}
+                        />
+                        <TextField 
+                            id='email'
+                            name='email'
+                            label='Email adress'
+                            variant='outlined'
+                            className='contact-us__input'
+                            value={formik.values.email}
+                            onChange={formik.handleChange}
+                            error={formik.touched.email && Boolean(formik.errors.email)}
+                            helperText={formik.touched.firstName && formik.errors.email}
+                        />
+                        <TextField 
+                            id='message'
+                            name='message'
+                            label='Your message'
+                            variant='outlined'
+                            multiline
+                            rows={5}
+                            className='contact-us__input'
+                            value={formik.values.message}
+                            onChange={formik.handleChange}
+                            error={formik.touched.message && Boolean(formik.errors.message)}
+                            helperText={formik.touched.firstName && formik.errors.message}
+                        />
+                        <Button 
+                            variant='outlined'
+                            type='submit'
+                            className='contact-us__btn'
+                        >
+                            Submit
+                        </Button>
+                    </form>
+                </div>
             </div>
         </div>
     );
