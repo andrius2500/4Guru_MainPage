@@ -1,12 +1,45 @@
-.footer__container {
+.footer {
+  color: white;
+}
+.footer .footer__container {
   border: 2px solid black;
   background: #2A2A2A;
 }
-.footer__container .footer__logo {
-  border: 1px solid red;
+.footer .footer__container .footer__main-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer .footer__container .footer__main-info .footer__logo {
+  margin-right: 100px;
+  margin-top: 20px;
   width: 8rem;
   height: 3rem;
 }
-.footer__container .footer__logo img {
+.footer .footer__container .footer__main-info .footer__logo img {
   height: 100%;
+}
+.footer .footer__container .footer__main-info .footer__contact-info {
+  margin-right: 100px;
+}
+.footer .footer__container .footer__main-info .footer__newsletter {
+  margin-left: 50px;
+  width: 30%;
+}
+.footer .footer__container .footer__main-info .footer__newsletter .footer__input {
+  height: 30px;
+  width: 65%;
+  border-radius: 10px;
+}
+.footer .footer__container .footer__main-info .footer__newsletter .footer__subscribe-btn {
+  height: 35px;
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 25%;
+  color: white;
+  background: #47AEE1;
+}
+.footer .footer__container .footer__rights {
+  text-align: center;
+  margin-top: 90px;
 }/*# sourceMappingURL=styles.css.map */
