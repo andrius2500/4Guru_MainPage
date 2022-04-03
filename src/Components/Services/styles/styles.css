@@ -1,0 +1,11 @@
+.our-services__container {
+  border: 1px solid red;
+}
+.our-services__container .our-services__top {
+  text-align: center;
+}
+.our-services__container .our-services__top p {
+  border: 1px solid black;
+  margin: auto;
+  width: 40%;
+}/*# sourceMappingURL=styles.css.map */

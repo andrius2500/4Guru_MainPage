@@ -1,11 +1,8 @@
 .contact-us__col-right {
   margin-top: 25px;
-  width: 50rem;
-  background-image: url("../../ContactUs/images/background-blue-img.svg");
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  margin-left: -350px;
+  width: 47rem;
+  height: 73vh;
+  margin-left: -300px;
 }
 
 .contact-us__form-container .contact-us__input-fields form {

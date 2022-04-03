@@ -1,17 +1,18 @@
 .contact-us {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
     .contact-us__col-left {
-        margin-top: 45px; 
+        margin-top: 15px; 
         .contact-us__main-text {
+            margin-left: 10px;
             h2 {
-                font-size: 30px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 3.5vw;
                 margin-bottom: -5px;
             }
             p {
                 width: 80%;
-                font-size: 18px;
+                font-size: 1.2rem;
             }
         }
         .contact-us__info {

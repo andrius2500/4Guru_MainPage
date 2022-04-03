@@ -1,8 +1,6 @@
 .navbar__navigation {
-  border: 1px solid black;
   display: flex;
   height: auto;
-  width: 100%;
 }
 .navbar__navigation .navbar__logo {
   margin-left: 5%;

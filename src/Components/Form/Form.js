@@ -44,7 +44,6 @@ function Form() {
 
     return (
         <div className='contact-us__form-container'>
-            <div className='contact-us__test'>
                 <div className='contact-us__input-fields'>
                     <form onSubmit={formik.handleSubmit}>
                         <TextField
@@ -101,7 +100,6 @@ function Form() {
                         </Button>
                     </form>
                 </div>
-            </div>
         </div>
     );
 }
