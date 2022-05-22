@@ -1,0 +1,20 @@
+.service-card--container {
+  box-shadow: 1px 0px 5px black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 20%;
+}
+.service-card--container h4 {
+  font-size: 1.3rem;
+}
+.service-card--container .service-card-img--container img {
+  border: 8px solid #a87738;
+  border-radius: 130px;
+  width: 65%;
+}
+.service-card--container .service-card-desc--container {
+  width: 80%;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */

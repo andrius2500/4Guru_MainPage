@@ -12,10 +12,10 @@ function Navbar() {
                         <img src={guruLogo} alt='Four guru logo' className='navbar__img'/>
                     </div>
                     <div className='navbar__navigation-links-container'>
-                        <a href="" className='navbar__links'>Our Services</a>
+                        <a href="" className='navbar__links'>My Services</a>
                         <a href="" className='navbar__links'>About Us</a>
-                        <a href="" className='navbar__links'>Blog</a>
-                        <a href="" className='navbar__links'>Contact</a>
+                        {/* <a href="" className='navbar__links'>Blog</a> */}
+                        <a href="" className='navbar__links'>Contact Me</a>
                     </div>
                 </div>
             </div>
